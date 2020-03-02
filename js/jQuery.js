@@ -11,35 +11,6 @@
  *
  * Date: 2019-05-01T21:04Z
  */
-$(document().ready)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ( function( global, factory ) {
