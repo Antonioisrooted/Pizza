@@ -13,3 +13,12 @@ img{
     background-color: rgb(65, 63, 63);
     color: blanchedalmond;
 }
+#form{
+    text-align: center;
+}
+#varieties, .container-fluid :hover{
+    opacity: 0.9;
+}
+*{
+    background-size: cover;
+}
