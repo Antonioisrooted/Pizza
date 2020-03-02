@@ -3,7 +3,7 @@ img{
     height: 100%;
 }
 .row{
-    padding-top: 20px;
+    padding-top: 22px;
 }
 #about{
     text-align: center;
@@ -12,6 +12,7 @@ img{
     text-align: center;
     background-color: rgb(65, 63, 63);
     color: blanchedalmond;
+    background-size: cover;
 }
 #form{
     text-align: center;
