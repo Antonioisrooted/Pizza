@@ -12,6 +12,7 @@ img{
     text-align: center;
     background-color: rgb(65, 63, 63);
     color: blanchedalmond;
+    background-size: cover;
 }
 #form{
     text-align: center;
