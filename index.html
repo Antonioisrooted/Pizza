@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
-    <!-- <script src="/js/jQuery.js"></script>
-    <script src="/js/scripts.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+    <script src="/js/jQuery.js"></script>
+    <script src="/js/scripts.js"></script>
+    
     <title>Pizza</title>
 
 </head>
 <body>
-
     <!--Nav-->
 
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -32,6 +32,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#varieties">Varieties</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#order">Order</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -134,11 +137,11 @@
                                 <label for="Selectyourpizzaflavour1"><b>Select Your Pizza Flavour</b></label>
                                 <select class="form-control" id="pizzaflavour">
                                     <option><b></b>Select Pizza Flavour</option>
-                                    <option value="300">Berry@Ksh 300</option>
-                                    <option value="400">Butternut Squash@ Ksh.400</option>
-                                    <option value="500">Chicken @Ksh 500</option>
-                                    <option value="600">Hummus @Ksh 600</option>
-                                    <option value="700">Turkish Ground @Ksh 700</option>
+                                    <option value="300">Beef</option>
+                                    <option value="400">Mutton</option>
+                                    <option value="500">Chicken</option>
+                                    <option value="600">Vegetable</option>
+                                    <option value="700">Pork</option>
                                 </select>
                             </div>
                             <div class="form-group text-center myform">
@@ -154,7 +157,7 @@
                                 <label for="Chooseyourfavoritecrust"><b>Choose Your Favorite Crust</b></label>
                                 <select class="form-control" id="pizzacrust" name="pizza">
                                     <option><b></b>Select Pizza Crust</option>
-                                    <!-- <option value="150">Thin crust @Ksh.150</option> -->
+
                                     <option value="200">Gluten-free crust @Ksh. 200</option>
                                     <option value="250" name="pizza">Crispy crust @Ksh.250</option>
                                     <option value="300">Stuffed crust@Ksh 300</option>
@@ -162,9 +165,9 @@
                             </div>
                             <div class="form-group text-center myform">
                                 <label for="Chooseyourfavoritetopping"><b>Choose Your Favorite Topping</b></label>
-                                <!-- <input type="number" class="form-control" id="number" placeholder="Number of pizzas"> -->
+
                                 <select class="form-control" id="pizzatopping">
-                                    <!-- <option>Select Pizza Toppings</option> -->
+
                                     <option value="200">onions @Ksh.200 </option>
                                     <option value="250">mushroom @ Ksh 250</option>
                                     <option value="300">bacon @ Ksh 300</option>
@@ -178,7 +181,7 @@
                             </div>
                         </form>
                         <div class="text-center p-5">
-                            <button id="pick-up" type="button" class="btn btn-success mybtn">PICK UP</button>
+                            <button id="pick-up" type="button" class="btn btn-info mybtn">PICK UP</button>
                         </div>
                         <div class="text-center">
                             <button id="make-delivery" type="button" class="btn btn-info mybtn">MAKE
