@@ -11,33 +11,31 @@
  *
  * Date: 2019-05-01T21:04Z
  */
-$(document().ready)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$(document).ready(function() {
+	$("#make-delivery").click(function(event) {
+	  var flavour = $("#pizzaflavour :selected");
+	  var size = $("#pizzasize :selected");
+	  var crust = $("#pizzacrust :selected");
+	  var topping = $("#pizzatopping :selected");
+	  var number = $("#number");
+	  getAmount(flavour, size, crust, topping, number);
+	  event.preventDefault();
+	});
+  });
+  $(document).ready(function() {
+	$("#pick-up").click(function(event) {
+	  var flavour = $("#pizzaflavour :selected");
+	  var size = $("#pizzasize :selected");
+	  var crust = $("#pizzacrust :selected");
+	  var topping = $("#pizzatopping :selected");
+	  var number = $("#number");
+	  getPick(flavour, size, crust, topping, number);
+	  event.preventDefault();
+	});
+  });
 
 
 
